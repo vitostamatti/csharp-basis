@@ -133,6 +133,19 @@ class Program
         // Interfaces
         IShape shape = new Square();
         shape.Draw(); // Output: Drawing a square
+
+        // Mediator
+        // Create mediator
+        var mediator = new Mediator();
+
+        // Register request handler
+        mediator.RegisterHandler(new GreetRequestHandler());
+
+        // Send request through mediator
+        var greetRequest = new GreetRequest { Name = "John" };
+        var result = mediator.Send(greetRequest);
+
+        Console.WriteLine(result); // Output: Hello, John!
     }
 }
 

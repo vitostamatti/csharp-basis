@@ -1,0 +1,18 @@
+@host = http://localhost:5025/api
+
+### Create User
+
+POST {{host}}/users/
+Content-Type: application/json
+
+{
+    "email": "test30@domain.com",
+    "firstName": "John",
+    "lastName": "Doe"
+}
+
+### Get User By Id
+
+@userId = 78C152F8-E13C-4130-ABCB-8119BA3EC50A
+
+GET {{host}}/users/{{userId}}

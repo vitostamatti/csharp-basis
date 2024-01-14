@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{220921C9-6C11-4AD9-AE46-6E4242D40C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMS.Api", "src\MicroIMS.Api\MicroIMS.Api.csproj", "{1977FB11-23C8-43E0-8B12-10BDA1429472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMS.Application", "src\MicroIMS.Application\MicroIMS.Application.csproj", "{154408C9-1F0C-432B-8521-778521F4A937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMS.Domain", "src\MicroIMS.Domain\MicroIMS.Domain.csproj", "{C50C6B52-3ECD-49C4-BC7C-3E1A1EF1C25D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMS.Contracts", "src\MicroIMS.Contracts\MicroIMS.Contracts.csproj", "{5823F058-243C-46D4-B882-6B982D0C8DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroIMS.Infrastructure", "src\MicroIMS.Infrastructure\MicroIMS.Infrastructure.csproj", "{38A17C67-5074-4EE7-BA2C-8DE4A9C2282C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1977FB11-23C8-43E0-8B12-10BDA1429472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1977FB11-23C8-43E0-8B12-10BDA1429472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1977FB11-23C8-43E0-8B12-10BDA1429472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1977FB11-23C8-43E0-8B12-10BDA1429472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154408C9-1F0C-432B-8521-778521F4A937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154408C9-1F0C-432B-8521-778521F4A937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154408C9-1F0C-432B-8521-778521F4A937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154408C9-1F0C-432B-8521-778521F4A937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50C6B52-3ECD-49C4-BC7C-3E1A1EF1C25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50C6B52-3ECD-49C4-BC7C-3E1A1EF1C25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50C6B52-3ECD-49C4-BC7C-3E1A1EF1C25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50C6B52-3ECD-49C4-BC7C-3E1A1EF1C25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5823F058-243C-46D4-B882-6B982D0C8DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5823F058-243C-46D4-B882-6B982D0C8DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5823F058-243C-46D4-B882-6B982D0C8DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5823F058-243C-46D4-B882-6B982D0C8DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A17C67-5074-4EE7-BA2C-8DE4A9C2282C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A17C67-5074-4EE7-BA2C-8DE4A9C2282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A17C67-5074-4EE7-BA2C-8DE4A9C2282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A17C67-5074-4EE7-BA2C-8DE4A9C2282C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D168D16F-60BF-4F69-A06D-78AD44F40243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D168D16F-60BF-4F69-A06D-78AD44F40243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D168D16F-60BF-4F69-A06D-78AD44F40243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D168D16F-60BF-4F69-A06D-78AD44F40243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1977FB11-23C8-43E0-8B12-10BDA1429472} = {220921C9-6C11-4AD9-AE46-6E4242D40C42}
+		{154408C9-1F0C-432B-8521-778521F4A937} = {220921C9-6C11-4AD9-AE46-6E4242D40C42}
+		{C50C6B52-3ECD-49C4-BC7C-3E1A1EF1C25D} = {220921C9-6C11-4AD9-AE46-6E4242D40C42}
+		{5823F058-243C-46D4-B882-6B982D0C8DDE} = {220921C9-6C11-4AD9-AE46-6E4242D40C42}
+		{38A17C67-5074-4EE7-BA2C-8DE4A9C2282C} = {220921C9-6C11-4AD9-AE46-6E4242D40C42}
+	EndGlobalSection
+EndGlobal
